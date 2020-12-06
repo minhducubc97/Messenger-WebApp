@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongodb": "^3.6.3",
+		"ws": "^7.3.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "server": "nodemon server.js"
+    }
+}

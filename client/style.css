@@ -1,0 +1,182 @@
+@media only screen and (max-width: 767px) {
+    #app-view {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #app-view {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #app-view {
+        width: 80%;
+    }
+}
+
+#app-view {
+    /* position: absolute; */
+    height: 60%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: black;
+}
+
+#app-view ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#app-menu li {
+    display: flex;
+    float: left;
+    align-items: center;
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+
+#app-menu li:hover {
+    background-color: lightblue;
+}
+
+#app-menu li:hover a {
+    color: yellow;
+}
+
+#app-menu li a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#page-view ul li {
+    display: flex;
+    height: 50px;
+    background-color: lightgray;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: black;
+    padding-left: 15px;
+}
+
+#page-view ul li:hover {
+    background-color: grey;
+}
+
+#page-view ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.form-field {
+    display: flex;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-field label {
+    width: 100px;
+}
+
+#desc {
+    height: 100px;
+}
+
+.content {
+    height: 50vh;
+}
+
+.room-name {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: black;
+}
+
+.message-list {
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: black;
+    background-color: lightgray;
+    overflow: scroll;
+    height: 42vh;
+}
+
+.message-user {
+    font-weight: bold;
+    display: block;
+    padding-left: 15px;
+}
+
+.message-text {
+    padding-left: 15px;
+}
+
+.message {
+    background-color: white;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: black;
+}
+
+.my-message {
+    margin-left: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.room-list {
+    height: 45vh;
+}
+
+.profile-form {
+    height: 45vh;
+}
+
+.page-control {
+    background-color: blue;
+    height: 5vh;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+#room-title {
+    margin-left: 20%;
+}
+
+#create-room-btn {
+    margin-right: 20%;
+}
+
+#chat-box {
+    height: 70%;
+    width: 85%;
+}
