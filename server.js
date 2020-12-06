@@ -218,7 +218,7 @@ app.use((err, req, res, next) => {
     }
 })
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
 	console.log(`${new Date()}  App Started. Listening on ${host}:${port}, serving ${clientApp}`);
 });
 
