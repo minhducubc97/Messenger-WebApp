@@ -1,5 +1,5 @@
 conn = new Mongo();
-db = conn.getDB("cpen400a-messenger");
+db = conn.getDB("cpen400amessenger");
 
 result = db.users.insert([
 	{

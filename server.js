@@ -87,7 +87,7 @@ broker.on('connection', function connection(orgClient, request) {
     }
 })
 
-var db = new Database("mongodb://localhost:27017", "cpen400a-messenger");
+var db = new Database("mongodb+srv://dwolf:20111997@messengerdatabase.zlfnt.mongodb.net", "cpen400amessenger");
 var messages = {};
 var promiseRooms = db.getRooms();
 promiseRooms.then(function(chatrooms) {
